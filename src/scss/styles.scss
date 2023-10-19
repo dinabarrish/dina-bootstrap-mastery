@@ -22,7 +22,6 @@ $primary: #ffffff;
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import 'nav';
-@import '_photos.scss';
 @import 'index.scss';
 
 // Import partials:
@@ -33,12 +32,13 @@ $primary: #ffffff;
   background: url(../img/pirate-ship.jpg) no-repeat center;
   background-size: cover;
   color: #ffffff;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Shrikhand', sans-serif;
   padding: 50px; 
+  height: 35vh;
 }
 
 footer {
-  background-color: #00d2f3; 
+  background-color:#478778 
 }
 
 
