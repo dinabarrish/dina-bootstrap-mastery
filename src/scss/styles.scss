@@ -17,10 +17,30 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+$primary: #ffffff;
+
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import 'nav';
+@import '_photos.scss';
+@import 'index.scss';
 
 // Import partials:
 
 // Custom styles:
+
+.jumbotron {
+  background: url(../img/pirate-ship.jpg) no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  padding: 50px; 
+}
+
+footer {
+  background-color: #00d2f3; 
+}
+
+
+
 
